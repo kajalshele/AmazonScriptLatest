@@ -9,12 +9,11 @@ Resource    ../Resources/PO/SignIn.robot
 Resource    ../Resources/PO/TopNav.robot
 
 *** Variables ***
-${WEBSITE}    https://www.amazon.com
 ${BROWSER}    chrome
 
 *** Keywords ***
 Begin Web Tests
-    open browser  ${WEBSITE}    ${BROWSER}
+    open browser  about:blank    ${BROWSER}
 
 End Web Tests
     close browser

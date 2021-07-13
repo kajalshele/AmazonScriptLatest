@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 
 *** Keywords ***
-Verify page is loaded
+Verify product is loaded
      wait until page contains    RASTAR Ferrari Remote Control Car, 1/24 Scale Ferrari 458 Italia Model Car, Red Ferrari Toy Car
 
 Select appropriate location

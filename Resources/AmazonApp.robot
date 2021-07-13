@@ -15,7 +15,7 @@ Search for product
 
 Select product from search result
     SearchResult.Click product link
-    Product.Verify page is loaded
+    Product.Verify product is loaded
 
 Choose location
     Product.Select appropriate location
@@ -27,5 +27,5 @@ Add product to cart
 
 Begin checkout
     Cart.Proceed to checkout
-    SignIn.Verify page is loaded
+    SignIn.Verify sign in page is loaded
 

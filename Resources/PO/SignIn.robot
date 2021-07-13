@@ -2,5 +2,5 @@
 Library    SeleniumLibrary
 
 *** Keywords ***
-Verify page is loaded
+Verify sign in page is loaded
      wait until page contains    Sign-In
